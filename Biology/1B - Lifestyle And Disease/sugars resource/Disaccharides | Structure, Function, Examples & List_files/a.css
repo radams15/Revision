@@ -1,0 +1,214 @@
+.site-branding-container {
+  min-height: 60px;
+}
+.site-branding-container .site-logo {
+  margin-right: 0.5em;
+}
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+}
+.hero .container {
+  max-width: 800px;
+  padding: 1em;
+}
+.hero h1 {
+  font-weight: bold;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.inside-article, .boxes .wp-block-column {
+  border: 1px solid #e9ecef;
+  border-radius: 0.3rem;
+  box-shadow: 0.5rem 0.5rem 0 rgba(222, 226, 230, .5);
+}
+.upsell .inside-article {
+  box-shadow: none;
+}
+.upsell .inside-article.callout {
+  border-width: 1px;
+  background-color: #ebf7f1;
+}
+.upsell .inside-article.callout .button.primary {
+  padding: 0.8em 1.8em;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"], a.button, a.button:visited, a.wp-block-button__link:not(.has-background) {
+  border-radius: 0.3em;
+  padding: 0.8em 1.8em;
+  margin-bottom: 5px;
+}
+.inside-article.callout .button.primary {
+  padding: 5px 10px;
+}
+.widget ul li {
+  list-style-type: initial;
+}
+.boxes .wp-block-column {
+  padding: 1em;
+}
+.boxes h3 {
+  color: #d63638;
+  font-weight: bold;
+}
+.boxes.hide-second .wp-block-column:nth-of-type(2) {
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none;
+}
+.button.secondary {
+  background-color: #3d444b;
+  color: white;
+}
+.button.secondary:hover {
+  background-color: #2c3338;
+  color: white;
+}
+.narrow #page {
+  max-width: 700px;
+}
+.rcp_form input {
+  width: 100%;
+}
+.rcp_form input[type="radio"], .rcp_form input[type="checkbox"] {
+  width: auto;
+}
+p.notice {
+  border: none !important;
+  background: #f7e5c0 !important;
+  color: #826b32 !important;
+  padding: 8px !important;
+  margin: 10px 0 !important;
+}
+.highlighted .wp-block-column {
+  padding: 2rem;
+}
+.highlighted .wp-block-column:nth-of-type(1) {
+  background: #008a20;
+  color: #ebf7f1;
+  text-align: left;
+}
+#pricing {
+  padding-top: 3rem;
+  text-align: center;
+}
+#pricing h3 {
+  font-size: 1.8em;
+}
+#pricing ul {
+  list-style-type: none;
+  margin: 0;
+}
+#pricing ul > li {
+  border-bottom: 1px solid #f5f5f5;
+  padding: 1rem 0;
+}
+#pricing .price {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+#pricing .price span {
+  font-size: 0.3em;
+  color: #777;
+  line-height: 1.2;
+}
+#pricing .highlighted {
+  position: relative;
+  border: 2px solid #00a32a;
+  background-color: #fafdfb;
+}
+#pricing .highlighted h2, #pricing .highlighted h3 {
+  color: #00a32a;
+  font-weight: bold;
+}
+#pricing .billed-at {
+  color: #777;
+  margin-bottom: 0.875em !important;
+}
+#pricing .value-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  display: block;
+  background: #27ae60;
+  margin-left: -2px;
+  margin-right: -2px;
+  color: #fff;
+  padding: 1rem;
+}
+#pricing p {
+  margin-bottom: 0;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-container .inside-article {
+  float: none;
+  margin: 0 0.3rem;
+}
+.flex-container .footer {
+  margin-top: 2rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+@media (max-width: 1024px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+  .flex-container .inside-article {
+    margin-top: 0.5rem;
+  }
+  .flex-container .premium {
+    margin-top: 4rem;
+  }
+  .flex-container .tablet-grid-25 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+blockquote {
+  position: relative;
+  font-weight: bold;
+  color: #00a32a;
+}
+blockquote cite {
+  float: right;
+  color: #777;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+blockquote cite:before {
+  content: '\2015';
+}
+blockquote cite em {
+  font-style: initial !Important;
+}
+blockquote:after {
+  content: '\201D';
+  position: absolute;
+  top: -50px;
+  right: 0;
+  font-size: 6em;
+  font-style: italic;
+  color: #e3dfe2;
+}
+.hello-bar {
+  text-align: center;
+  padding: 20px;
+  background-color: #3638d6;
+  color: white;
+}
+.hello-bar a {
+  color: white;
+  text-decoration: underline;
+}
+.home #text-11 {
+  margin-bottom: 0;
+}
