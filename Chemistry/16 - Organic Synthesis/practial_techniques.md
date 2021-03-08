@@ -81,11 +81,11 @@ Water needs to be removed from organic products, and to do this,
 
 Examples:
 
-| Drying Agent       | Use                 |   |   |   |
-|--------------------|---------------------|---|---|---|
-| Calcium Chloride   | Drying hydrocarbons |   |   |   |
-| Calcium Sulphate   | General drying      |   |   |   |
-| Magnesium Sulphate | General drying      |   |   |   |
+| Drying Agent       | Use                 |
+|--------------------|---------------------|
+| Calcium Chloride   | Drying hydrocarbons |
+| Calcium Sulphate   | General drying      |
+| Magnesium Sulphate | General drying      |
 
 
 Steps:
