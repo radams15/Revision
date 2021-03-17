@@ -26,20 +26,23 @@ There are two phases in the cell cycle:
  	and become visible. Centrioles move to opposite
  	poles and the nuclear membrane breaks down.
 
- 	![prophase image]()
+
+	![](mitosis.md.1112.png)
 
  - Metaphase - replicated chromosomes line up at the cell
  	equator. Spindle fibres connect centrioles to centromeres.
 
-	![metaphase image]()
+	![](mitosis.md.8733.png)
 
  - Anaphase - centromeres split, sister chromatids are pulled apart
  	to opposite poles of the cell as the spindle fibres contract.
 
-	![anaphaseimage]()
+	![](mitosis.md.3410.png)
 
  - Telophase - spindle fibres disperse, nuclear membranes
  	reform around each set of chromosomes.
+
+	![](mitosis.md.7927.png)
 
 
 ## Cytokenisis:
@@ -49,9 +52,9 @@ There are two phases in the cell cycle:
  - In animal cells, a ring of filaments form
  	around the equator, and tighten to split the cell.
 
- 	![animal cytokenisis image]()
+ 	![](mitosis.md.9633.png)
 
  - In plant cells, a new cell wall forms inside the
  	existing cell to split it.
 
- 	![plant cytokenisis image]()
+ 	![](mitosis.md.8827.png)
