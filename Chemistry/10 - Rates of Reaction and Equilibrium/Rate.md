@@ -16,3 +16,6 @@ Factors affecting rate:
 - Pressure
 - Surface area
 - Catalysts
+
+For a reaction to occur the reactants must occur with at least the activation energy,
+and in the correct orientation.
