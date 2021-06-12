@@ -66,3 +66,20 @@ When receiving, the different parts that are added to the packet are removed, so
 
 ## FTP
 
+High level file transfer protocol.
+
+Mostly authenticated, sometimes anonymous.
+
+## Email
+
+#### POP
+
+This is used to temporaraly store emails until the client downloads them. The files are then deleted from the server.
+
+#### IMAP
+
+This is where the server keeps the emails, and allows the client to download a copy of the emails.
+
+#### SMTP
+
+This is a protocol to send emails from one device to another.
