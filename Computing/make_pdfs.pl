@@ -29,9 +29,14 @@ sub convert_sect{
 		#$data .= "---\n\n# $file\n\n$content";
 		$data .= "\n\n$content\n\n";
 	}
-
-	convert($data, "out.pdf");
 	
+	if($path =~ /Section (\d+) - (.*)/g){
+	
+		if(!($data eq "")){
+			convert($data, "$1 - $2.pdf");
+		}
+	}
+
 	chdir "..";
 }
 
