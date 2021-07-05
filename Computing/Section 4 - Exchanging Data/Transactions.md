@@ -6,6 +6,8 @@
 
 Transaction must be completed entirely, or it is not completed at all.
 
+Transactions cannot partially complete.
+
 This ensures that whatever happens, it is impossible to complete half a transaction.
 
 #### Consistency

@@ -14,19 +14,21 @@ Strings can be hashed by using their ASCII values.
 
 Dictionaries are a type of hash table.
 
+These have an efficiency of $O(1)$ if there are no duplicate hash values.
+
 ## Algorithms
 
 #### Modulo
 
-This is where MOD is used to create keys.
+This is where `MOD` is used to create keys.
 
-E.g 20 MOD 7 would be in position 6.
+E.g `20 MOD 7` would be in position 6.
 
 #### Folding
 
 This is where the key is split into equal parts, then adds the parts to get the key.
 
-E.g. 123456 would be split into 12, 34 and 56, which equals 102.
+E.g. 123456 would be split into 12, 34 and 56, which equals 102, so the data is stored at position 102.
 
 #### Rehashing
 

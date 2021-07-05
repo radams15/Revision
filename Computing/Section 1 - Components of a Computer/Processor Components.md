@@ -65,6 +65,8 @@ Can do binary shifts as well as boolean operations such as and, or, not and xor.
 
 Very high speed memory.
 
+Small memory location used for storing data.
+
 Results of ALU operations are stored in registers.
 
 There are typically 16 general purpose registers in a CPU.

@@ -17,6 +17,13 @@ bus for addresses of data and addresses of instructions.
 
 All memory uses the same word length.
 
+Features:
+
+- Single control unit.
+- Single ALU.
+- Follows fetch, decode, execute cycle.
+- Data and instructions stored in same memory and same format.
+
 ## Harvard Architecture
 
 This is where memory storages can have different features, e.g. instruction memory is read

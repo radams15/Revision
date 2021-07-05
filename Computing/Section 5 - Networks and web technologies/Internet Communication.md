@@ -42,8 +42,13 @@ This is the individual ID of a device.
 
 This is hard coded on the network card (NIC).
 
+## Protocols
 
-## TCP/IP
+These allow different pieces of software to communicate.
+
+They ensure all devices follow the same standards, to interpret data in the same way.
+
+#### TCP/IP
 
 This is a collection of protocols.
 
@@ -64,13 +69,11 @@ There are 4 layers:
 
 When receiving, the different parts that are added to the packet are removed, so by the time the response reaches the application layer, there are no packets, no source/destination IPs, and no MAC addresses.
 
-## FTP
+#### FTP
 
 High level file transfer protocol.
 
 Mostly authenticated, sometimes anonymous.
-
-## Email
 
 #### POP
 
