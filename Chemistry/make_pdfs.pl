@@ -30,7 +30,7 @@ sub convert_sect{
 		$data .= "\n\n$content\n\n";
 	}
 	
-	if($path =~ /(:?Section )?(\d+) - (.*)/g){
+	if($path =~ /(\d+) - (.*)/g){
 	
 		if(!($data eq "")){
 			convert($data, "$1 - $2.pdf");
@@ -40,6 +40,6 @@ sub convert_sect{
 	chdir "..";
 }
 
-foreach my $sect (<Section*>){
+foreach my $sect (<*>){
 	convert_sect($sect);
 }
