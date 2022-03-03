@@ -14,4 +14,8 @@ $\gamma$ least ionising.
 
 Particles follow Fleming's left-hand rule.
 
-![Particle Attractions in a Magnetic Field](particles.md.4839.png) 
+![Particle Attractions in a Magnetic Field](particles.md.4839.png)
+
+## $\gamma$ Particles
+
+Follows inverse square law.
